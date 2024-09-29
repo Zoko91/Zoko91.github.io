@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on My place</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blogs on My place</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atomic perception</title>
+      <link>http://localhost:1313/blog/atomic-perception/</link>
+      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/atomic-perception/</guid>
+      <description>&lt;p&gt;The other day, I was listening to a podcaster named &lt;a href=&#34;https://www.youtube.com/@theo.lelion&#34;&gt;Theo Lion&lt;/a&gt;, who has a series of videos discussing his entrepreneurial journey. He backs his thoughts with knowledge gained from books.&lt;/p&gt;&#xA;&lt;p&gt;I am not a passionate book lover, but I understood why—I&amp;rsquo;ve never had the chance to read an interesting book. I realized this statement when I started reading Atomic Habits, which Theo Lion recommended. In this first blog post, I will discuss some elements that have helped me become a better person. Understanding key concepts of habits and contextualizing them with personal experiences is essential for becoming more efficient. Let&amp;rsquo;s dive into it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

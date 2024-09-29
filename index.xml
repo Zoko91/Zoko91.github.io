@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to My Portfolio on My place</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome to My Portfolio on My place</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hello world&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atomic perception</title>
+      <link>http://localhost:1313/blog/atomic-perception/</link>
+      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/atomic-perception/</guid>
+      <description>&lt;p&gt;The other day, I was listening to a podcaster named &lt;a href=&#34;https://www.youtube.com/@theo.lelion&#34;&gt;Theo Lion&lt;/a&gt;, who has a series of videos discussing his entrepreneurial journey. He backs his thoughts with knowledge gained from books.&lt;/p&gt;&#xA;&lt;p&gt;I am not a passionate book lover, but I understood why—I&amp;rsquo;ve never had the chance to read an interesting book. I realized this statement when I started reading Atomic Habits, which Theo Lion recommended. In this first blog post, I will discuss some elements that have helped me become a better person. Understanding key concepts of habits and contextualizing them with personal experiences is essential for becoming more efficient. Let&amp;rsquo;s dive into it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Domino, share your activity, get motivated</title>
+      <link>http://localhost:1313/projects/domino/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/domino/</guid>
+      <description>&lt;p&gt;Domino (the app final name is still under research and development) is an app created to enhance one&amp;rsquo;s experience of going outside. Let&amp;rsquo;s define a new term called &lt;em&gt;instant tourism&lt;/em&gt; by looking into what the app offers.&lt;/p&gt;&#xA;&lt;p&gt;The app is centered around a main function, placing activities on a map. Whenever you are going to the skatepark with friends, attending an old car gathering or even sipping a drink near the beach, you are free to share this activity by placing a pin on the map and describing few information&amp;hellip; The goal is to motivate people to go outside and do activites they would have never done otherwise. It works best when in a foregn country or travelling to a place you haven&amp;rsquo;t meticulously prepared your tight planning. It gives you hints on where to eat, what to do, or find exceptional events on a 2h time-frame.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
