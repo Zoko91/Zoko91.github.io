@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>School-Projects on My place</title>
+    <link>http://localhost:1313/school-projects/</link>
+    <description>Recent content in School-Projects on My place</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/school-projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Knowledge Graph Generation</title>
+      <link>http://localhost:1313/school-projects/knowledge-graph-generation/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/school-projects/knowledge-graph-generation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Constrastive learning</title>
+      <link>http://localhost:1313/school-projects/contrastive-learning/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/school-projects/contrastive-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Find Your Internship</title>
+      <link>http://localhost:1313/school-projects/find-your-internship/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/school-projects/find-your-internship/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Language Identification</title>
+      <link>http://localhost:1313/school-projects/deep-language/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/school-projects/deep-language/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Palette your emotions</title>
+      <link>http://localhost:1313/school-projects/palette/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/school-projects/palette/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
