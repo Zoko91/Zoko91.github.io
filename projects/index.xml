@@ -10,17 +10,10 @@
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Domino, share your activity, get motivated</title>
-      <link>http://localhost:1313/projects/connect/</link>
+      <link>http://localhost:1313/projects/domino/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/connect/</guid>
-      <description>&lt;p&gt;Domino is an app designed&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Internshare, find your next internship !</title>
-      <link>http://localhost:1313/projects/internshare/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/internshare/</guid>
-      <description>&lt;p&gt;Internshare is an app designed&amp;hellip;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/projects/domino/</guid>
+      <description>&lt;p&gt;Domino (the app final name is still under research and development) is an app created to enhance one&amp;rsquo;s experience of going outside. Let&amp;rsquo;s define a new term called &lt;em&gt;instant tourism&lt;/em&gt; by looking into what the app offers.&lt;/p&gt;&#xA;&lt;p&gt;The app is centered around a main function, placing activities on a map. Whenever you are going to the skatepark with friends, attending an old car gathering or even sipping a drink near the beach, you are free to share this activity by placing a pin on the map and describing few information&amp;hellip; The goal is to motivate people to go outside and do activites they would have never done otherwise. It works best when in a foregn country or travelling to a place you haven&amp;rsquo;t meticulously prepared your tight planning. It gives you hints on where to eat, what to do, or find exceptional events on a 2h time-frame.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
