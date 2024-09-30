@@ -13,35 +13,35 @@
       <link>http://localhost:1313/school-projects/knowledge-graph-generation/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/school-projects/knowledge-graph-generation/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://github.com/Zoko91/KG-generation&#34;&gt;&lt;strong&gt;Knowledge Graph Generation&lt;/strong&gt;&lt;/a&gt; project aimed to extract RDF triplets from economic documents, converting unstructured text into structured knowledge. This task was part of my coursework at ENSEIRB-MATMECA, where I worked with 3 other students on transforming economic articles into knowledge graphs, enabling deeper semantic analysis. The extracted knowledge graphs reveal relationships between key entities and attributes in the economic domain, using the Resource Description Framework (RDF) format. This project provided practical experience in working with cutting-edge techniques in natural language processing (NLP) and knowledge representation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Constrastive learning</title>
       <link>http://localhost:1313/school-projects/contrastive-learning/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/school-projects/contrastive-learning/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;The goal of this project was to explore &lt;strong&gt;contrastive learning&lt;/strong&gt;, a self-supervised learning technique, and implement a downscaled version of the &lt;a href=&#34;https://arxiv.org/abs/2002.05709&#34;&gt;SimCLR framework&lt;/a&gt;. The objective was to understand how contrastive learning works and to apply it on a smaller scale using the CIFAR-10 dataset. This involved adapting the original SimCLR model to use the less complex ResNet-18 architecture, instead of the larger ResNet-50 used in the original paper.&lt;/p&gt;&#xA;&lt;p&gt;By scaling down the model and the dataset, I aimed to assess whether contrastive learning could still deliver robust feature representations in environments with limited computational resources.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Find Your Internship</title>
       <link>http://localhost:1313/school-projects/find-your-internship/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/school-projects/find-your-internship/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Find Your Internship&lt;/strong&gt; is a mobile app project developed as part of a mobile development course at ENSC. The main objective of the project was to provide a platform where students could share and browse internship experiences, helping them make more informed decisions when choosing companies and roles for their internships.&lt;/p&gt;&#xA;&lt;p&gt;The idea stemmed from the common student experience of not always knowing what to expect from an internship. By having a platform that collects and organizes past internship experiences, students can quickly gather relevant insights about companies, job roles, and work environments before making their choices.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deep Language Identification</title>
       <link>http://localhost:1313/school-projects/deep-language/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/school-projects/deep-language/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;The DeepLanguage project was part of my second-year computer science studies at ENSC. The objective was to develop an artificial intelligence capable of identifying spoken languages from short audio clips. With the rise of voice assistants like Siri and Alexa, as well as the need to transcribe and translate text into different languages, language identification is becoming increasingly important.&lt;/p&gt;&#xA;&lt;p&gt;The project’s goal was to design a system that could analyze spoken language and identify whether the audio was in French, English, German, or Spanish. The project presented several challenges, including processing large datasets, developing an effective machine learning model, and creating a user-friendly web application to test the algorithm.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;The DeepLanguage project was part of my second-year computer science studies at ENSC, it was a solo computer science related project. We were free to choose which language to use and which topic to work on. The objective was to develop an artificial intelligence capable of identifying spoken languages from short audio clips. With the rise of voice assistants like Siri and Alexa, as well as the need to transcribe and translate text into different languages, language identification is becoming increasingly important.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Palette your emotions</title>
       <link>http://localhost:1313/school-projects/palette/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/school-projects/palette/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Palette your emotions&lt;/strong&gt; is a project born out of the second-year TransPromotion initiative at ENSC. The goal of the project was to create an innovative tool that would generate a color palette based on emotions and sentiments extracted from text. By leveraging natural language processing (NLP) and emotion-color theory, we aimed to bridge the gap between human emotions and visual representation through color.&lt;/p&gt;&#xA;&lt;h2 id=&#34;concept-and-approach&#34;&gt;Concept and Approach&lt;/h2&gt;&#xA;&lt;p&gt;The idea behind Palette was simple yet ambitious: use artificial intelligence (AI) to analyze the sentiment of a text input and convert those emotions into corresponding colors. We explored existing research on the relationship between emotions and colors and studied how modern tools like OpenAI’s GPT-3 could help us perform sentiment analysis.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Palette your emotions&lt;/strong&gt; is a project born out of the second-year TransPromotion initiative (4 months school project of 6 people) at ENSC. The goal of the project was to create an innovative tool that would generate a color palette based on emotions and sentiments extracted from text. By leveraging natural language processing (NLP) and emotion-color theory, we aimed to bridge the gap between human emotions and visual representation through color.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
