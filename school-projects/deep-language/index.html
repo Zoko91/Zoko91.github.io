@@ -7,8 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
    <meta name="description" content="Introduction
-The DeepLanguage project was part of my second-year computer science studies at ENSC. The objective was to develop an artificial intelligence capable of identifying spoken languages from short audio clips. With the rise of voice assistants like Siri and Alexa, as well as the need to transcribe and translate text into different languages, language identification is becoming increasingly important.
-The project’s goal was to design a system that could analyze spoken language and identify whether the audio was in French, English, German, or Spanish. The project presented several challenges, including processing large datasets, developing an effective machine learning model, and creating a user-friendly web application to test the algorithm.">  
+The DeepLanguage project was part of my second-year computer science studies at ENSC, it was a solo computer science related project. We were free to choose which language to use and which topic to work on. The objective was to develop an artificial intelligence capable of identifying spoken languages from short audio clips. With the rise of voice assistants like Siri and Alexa, as well as the need to transcribe and translate text into different languages, language identification is becoming increasingly important.">  
 
   <title>
     
@@ -42,23 +41,23 @@ The project’s goal was to design a system that could analyze spoken language a
     
 
     <h2 id="introduction">Introduction</h2>
-<p>The DeepLanguage project was part of my second-year computer science studies at ENSC. The objective was to develop an artificial intelligence capable of identifying spoken languages from short audio clips. With the rise of voice assistants like Siri and Alexa, as well as the need to transcribe and translate text into different languages, language identification is becoming increasingly important.</p>
+<p>The DeepLanguage project was part of my second-year computer science studies at ENSC, it was a solo computer science related project. We were free to choose which language to use and which topic to work on. The objective was to develop an artificial intelligence capable of identifying spoken languages from short audio clips. With the rise of voice assistants like Siri and Alexa, as well as the need to transcribe and translate text into different languages, language identification is becoming increasingly important.</p>
 <p>The project’s goal was to design a system that could analyze spoken language and identify whether the audio was in French, English, German, or Spanish. The project presented several challenges, including processing large datasets, developing an effective machine learning model, and creating a user-friendly web application to test the algorithm.</p>
 <h2 id="concept-and-approach">Concept and Approach</h2>
 <p>The DeepLanguage system is based on speech processing and machine learning principles. The challenge was to teach an artificial neural network how to distinguish between different languages using digital audio data.</p>
-<p>We started by gathering a large dataset of short audio clips using Mozilla’s Common Voice dataset, which provided thousands of recordings in the four target languages. These clips were processed and labeled to ensure even distribution among languages.</p>
-<p>Once the dataset was prepared, we moved on to the feature extraction stage, focusing on MFCCs (Mel-frequency cepstral coefficients), which are widely used in speech recognition. These coefficients allowed us to create a compact representation of the sound that was resistant to variations in volume and pitch.</p>
+<p>I started by gathering a large dataset of short audio clips using Mozilla’s Common Voice dataset, which provided thousands of recordings in the four target languages. These clips were processed and labeled to ensure even distribution among languages.</p>
+<p>Once the dataset was prepared, I moved on to the feature extraction stage, focusing on MFCCs (Mel-frequency cepstral coefficients), which are widely used in speech recognition. These coefficients allowed me to create a compact representation of the sound that was resistant to variations in volume and pitch.</p>
 <h2 id="technical-solution">Technical Solution</h2>
-<p>The next step was to design and train a neural network model. After evaluating different architectures, we chose a Convolutional Neural Network (CNN) to analyze the MFCC features. CNNs are excellent for extracting patterns from structured data, and they helped us detect the subtle differences between languages.</p>
-<p>We trained the model on 75% of the dataset and used the remaining 25% for validation and testing. The model performed well, achieving a high accuracy rate, especially for English and German. However, it struggled with distinguishing Spanish from French in some cases.</p>
-<p>On the web development side, we created a web interface using Flask, a Python-based web framework. This allowed users to record a short audio clip and receive an immediate prediction of the language spoken.</p>
+<p>The next step was to design and train a neural network model. After evaluating different architectures, I chose a Convolutional Neural Network (CNN) to analyze the MFCC features. CNNs are excellent for extracting patterns from structured data, and they helped us detect the subtle differences between languages.</p>
+<p>I trained the model on 75% of the dataset and used the remaining 25% for validation and testing. The model performed well, achieving a high accuracy rate, especially for English and German. However, it struggled with distinguishing Spanish from French in some cases.</p>
+<p>On the web development side, I created a web interface using Flask, a Python-based web framework. This allowed users to record a short audio clip and receive an immediate prediction of the language spoken.</p>
 <h4 id="heading"></h4>
 <p><img src="/images/deeplanguage_website.png" alt="Main page of DeepLanuage web app">
 <em>Main page of the DeepLanguage web application.</em></p>
 <h2 id="challenges-and-improvements">Challenges and Improvements</h2>
 <p>Throughout the development of DeepLanguage, several challenges emerged:</p>
-<p>Model Sensitivity: The model was sensitive to variations in the audio recordings, particularly when dealing with non-native speakers or background noise. We experimented with different methods to reduce overfitting, such as regularization and data augmentation.</p>
-<p>Web Deployment: One of the key challenges was deploying the audio processing system online. Since the audio processing relied on Python libraries like Pydub (which required an audio card), we encountered difficulties with server-side deployment. To address this, we moved part of the audio processing to the client side using JavaScript.</p>
+<p>Model Sensitivity: The model was sensitive to variations in the audio recordings, particularly when dealing with non-native speakers or background noise. I experimented with different methods to reduce overfitting, such as regularization and data augmentation.</p>
+<p>Web Deployment: One of the key challenges was deploying the audio processing system online. Since the audio processing relied on Python libraries like Pydub (which required an audio card), I encountered difficulties with server-side deployment. To address this, I moved part of the audio processing to the client side using JavaScript.</p>
 <h2 id="future-improvements">Future Improvements</h2>
 <p>There are several areas where DeepLanguage can be improved:</p>
 <p>Dataset Expansion: Increasing the diversity of the dataset by adding more languages and training the model on a wider range of accents and speech patterns.

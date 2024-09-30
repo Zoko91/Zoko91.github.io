@@ -6,7 +6,9 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <meta name="description" content="">  
+   <meta name="description" content="Introduction
+The goal of this project was to explore contrastive learning, a self-supervised learning technique, and implement a downscaled version of the SimCLR framework. The objective was to understand how contrastive learning works and to apply it on a smaller scale using the CIFAR-10 dataset. This involved adapting the original SimCLR model to use the less complex ResNet-18 architecture, instead of the larger ResNet-50 used in the original paper.
+By scaling down the model and the dataset, I aimed to assess whether contrastive learning could still deliver robust feature representations in environments with limited computational resources.">  
 
   <title>
     
@@ -39,7 +41,28 @@
 
     
 
-    
+    <h2 id="introduction">Introduction</h2>
+<p>The goal of this project was to explore <strong>contrastive learning</strong>, a self-supervised learning technique, and implement a downscaled version of the <a href="https://arxiv.org/abs/2002.05709">SimCLR framework</a>. The objective was to understand how contrastive learning works and to apply it on a smaller scale using the CIFAR-10 dataset. This involved adapting the original SimCLR model to use the less complex ResNet-18 architecture, instead of the larger ResNet-50 used in the original paper.</p>
+<p>By scaling down the model and the dataset, I aimed to assess whether contrastive learning could still deliver robust feature representations in environments with limited computational resources.</p>
+<h2 id="concept-and-approach">Concept and Approach</h2>
+<p>SimCLR (A Simple Framework for Contrastive Learning of Visual Representations) is a self-supervised method where a neural network learns to maximize the similarity between different augmented views of the same image while minimizing the similarity between views of different images. This is done without needing any labeled data.</p>
+<p>For my project, I focused on using <strong>ResNet-18</strong> as the base encoder due to its lower computational cost compared to the ResNet-50 model used in the original SimCLR paper. My dataset of choice was <strong>CIFAR-10</strong>, which consists of 60,000 small images divided into 10 classes.</p>
+<p>The main challenge was to ensure that the contrastive learning process could still capture meaningful representations in this reduced setting. This required careful tuning of hyperparameters, data augmentations, and batch sizes.</p>
+<h2 id="technical-solution">Technical Solution</h2>
+<p>The project utilized ResNet-18 as the backbone architecture for encoding images, followed by a multi-layer perceptron (MLP) as the projection head. I implemented the following steps:</p>
+<ul>
+<li><strong>Data Augmentation</strong>: I applied various augmentations like random cropping, horizontal flipping, and color jittering to generate positive pairs.</li>
+<li><strong>Contrastive Loss</strong>: The model was trained using the contrastive loss function, which encourages the model to learn representations that are invariant to the applied augmentations.</li>
+<li><strong>Evaluation</strong>: I tested the quality of the learned representations using t-SNE visualization and nearest neighbor search, which revealed the model’s ability to cluster similar images.</li>
+</ul>
+<h2 id="challenges-and-learnings">Challenges and Learnings</h2>
+<p>One of the main challenges was managing batch size. Larger batch sizes tend to produce better results in contrastive learning, but they also demand more computational resources. Given the limitations of my setup, I experimented with different batch sizes to find the optimal balance between learning efficiency and resource consumption.</p>
+<p>Through this project, I gained a deeper understanding of <strong>self-supervised learning</strong>, particularly contrastive learning, and how it can be adapted to smaller datasets and models.</p>
+<h2 id="conclusion-and-future-directions">Conclusion and Future Directions</h2>
+<p>This project demonstrated that contrastive learning remains effective even when scaled down for smaller datasets and simpler models. However, there are still limitations to address, such as the sensitivity to batch size and the quality of learned representations when compared to larger, more powerful models.</p>
+<p>Future work could involve exploring Vision Transformers for contrastive learning or fine-tuning the model with other self-supervised techniques.</p>
+<p>For more details, you can check the code on <a href="https://github.com/Zoko91/contrastive-learning">GitHub</a> and access the <a href="/pdf/simclr_down_scale.pdf">research paper</a> (<em>in english this time</em>) for further reading.</p>
+
 </article>
 
             </div>

@@ -6,7 +6,8 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <meta name="description" content="">  
+   <meta name="description" content="Introduction
+The Knowledge Graph Generation project aimed to extract RDF triplets from economic documents, converting unstructured text into structured knowledge. This task was part of my coursework at ENSEIRB-MATMECA, where I worked with 3 other students on transforming economic articles into knowledge graphs, enabling deeper semantic analysis. The extracted knowledge graphs reveal relationships between key entities and attributes in the economic domain, using the Resource Description Framework (RDF) format. This project provided practical experience in working with cutting-edge techniques in natural language processing (NLP) and knowledge representation.">  
 
   <title>
     
@@ -39,7 +40,32 @@
 
     
 
-    
+    <h2 id="introduction">Introduction</h2>
+<p>The <a href="https://github.com/Zoko91/KG-generation"><strong>Knowledge Graph Generation</strong></a> project aimed to extract RDF triplets from economic documents, converting unstructured text into structured knowledge. This task was part of my coursework at ENSEIRB-MATMECA, where I worked with 3 other students on transforming economic articles into knowledge graphs, enabling deeper semantic analysis. The extracted knowledge graphs reveal relationships between key entities and attributes in the economic domain, using the Resource Description Framework (RDF) format. This project provided practical experience in working with cutting-edge techniques in natural language processing (NLP) and knowledge representation.</p>
+<h2 id="concept-and-approach">Concept and Approach</h2>
+<p>The task involved building a pipeline to automatically extract
+&lt;<strong>subject-predicate-object</strong>&gt; triplets from economic documents. These triplets represent relations between entities, forming the basis for creating a knowledge graph.</p>
+<p>I used two Python scripts to implement the pipeline: one for data extraction and triplet generation, and the other for cleaning and refining the results. The pipeline relied on pre-trained models like mRebel and All-MiniLM for relation extraction and semantic similarity comparison. The extracted RDF triplets were saved in a knowledge base, making it easier to query and analyze relationships between various economic concepts.</p>
+<h2 id="technical-solution">Technical Solution</h2>
+<p>The project followed a detailed pipeline:</p>
+<ul>
+<li><strong>Text Extraction</strong>: Text was extracted from economic PDFs using PyMuPDF.</li>
+<li><strong>Relation Extraction</strong>: I used mRebel, a transformer-based model, to extract &lt;subject-predicate-object&gt; relations from the text, identifying key relationships.</li>
+<li><strong>Entity Merging</strong>: All-MiniLM was employed to merge similar entities by comparing their vectorized representations and applying a similarity threshold to reduce duplicates.</li>
+<li><strong>Triplet Generation</strong>: The pipeline generated RDF triplets that formed the basis of the knowledge graph, representing entities and their relationships.</li>
+<li><strong>Graph Generation</strong>: I used PyGraft and rdflib to build the knowledge graph from the extracted triplets, visualizing relationships between entities.</li>
+<li><strong>Data Storage</strong>: The triplets were stored in Memgraph, enabling efficient querying and management of the knowledge graph.</li>
+<li><strong>Frontend &amp; Visualization</strong>: A Streamlit interface allowed users to upload PDFs and interact with the generated knowledge graph through an intuitive web application.</li>
+</ul>
+<h4 id="heading"></h4>
+<p><img src="/images/knowledgegraph_graph.png" alt="Knowledge graph"></p>
+<p><em>Short portion of the graph representing concepts and their relations.</em></p>
+<h2 id="challenges-and-solutions">Challenges and Solutions</h2>
+<p>One of the main challenges I faced was scaling the triplet extraction process while maintaining accuracy. Fine-tuning the models on specific economic text data improved the relevance of the extracted relations. Additionally, storing the knowledge base in a scalable and accessible format posed difficulties, which I addressed by experimenting with different graph database solutions.</p>
+<p>Another hurdle was ensuring high-quality merging of entities with similar meanings. The merging process used All-MiniLM, which creates vectorized representations of concepts. By calculating the semantic similarity between entities, I could determine how closely related they were. A threshold cap was applied to these similarity scores, allowing the program to decide whether two entities should be merged based on how similar their vectorized representations were. This ensured that entities with similar meanings were properly combined, improving the overall quality of the knowledge graph.</p>
+<h2 id="conclusion-and-future-directions">Conclusion and Future Directions</h2>
+<p>This project demonstrated how powerful knowledge graphs can be for understanding complex economic relationships. Extracting structured information from unstructured text opens up new possibilities for data analysis and querying in the economic domain. Moving forward, there is room to improve both the scalability of the system and the accuracy of entity alignment and relation extraction.</p>
+
 </article>
 
             </div>
