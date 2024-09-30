@@ -34,14 +34,14 @@
       <link>http://localhost:1313/school-projects/deep-language/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/school-projects/deep-language/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;The DeepLanguage project was part of my second-year computer science studies at ENSC. The objective was to develop an artificial intelligence capable of identifying spoken languages from short audio clips. With the rise of voice assistants like Siri and Alexa, as well as the need to transcribe and translate text into different languages, language identification is becoming increasingly important.&lt;/p&gt;&#xA;&lt;p&gt;The project’s goal was to design a system that could analyze spoken language and identify whether the audio was in French, English, German, or Spanish. The project presented several challenges, including processing large datasets, developing an effective machine learning model, and creating a user-friendly web application to test the algorithm.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Palette your emotions</title>
       <link>http://localhost:1313/school-projects/palette/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/school-projects/palette/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Palette your emotions&lt;/strong&gt; is a project born out of the second-year TransPromotion initiative at ENSC. The goal of the project was to create an innovative tool that would generate a color palette based on emotions and sentiments extracted from text. By leveraging natural language processing (NLP) and emotion-color theory, we aimed to bridge the gap between human emotions and visual representation through color.&lt;/p&gt;&#xA;&lt;h2 id=&#34;concept-and-approach&#34;&gt;Concept and Approach&lt;/h2&gt;&#xA;&lt;p&gt;The idea behind Palette was simple yet ambitious: use artificial intelligence (AI) to analyze the sentiment of a text input and convert those emotions into corresponding colors. We explored existing research on the relationship between emotions and colors and studied how modern tools like OpenAI’s GPT-3 could help us perform sentiment analysis.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
